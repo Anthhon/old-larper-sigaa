@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIGAA Old Larper Edition</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="monitor-container">
+            <div id="screen">
+                <div id="no-signal"></div>
+                <iframe id="monitor-screen"
+                        title="SIGAA"
+                        src="https://si3.ufc.br/sigaa/verTelaLogin.do"
+                        referrerpolicy="no-referrer"
+                        allow="fullscreen">
+                </iframe>
+                <div id="crt"></div>
+                <div id="glare"></div>
+            </div>
+            <img id="monitor"
+                 src="./old_monitor.png"
+                 alt="Monitor antigo"
+                 draggable="false">
+            <div id="led"></div>
+            <button id="power" type="button" aria-label="Ligar/desligar monitor"></button>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
